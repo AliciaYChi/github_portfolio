@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>Alicia's Portfolio</title>
+<head>
+  <!--Script to have button menu work-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <!-- Sec. 1-->
+</head>
+
+<body>
+
+<center>
+  <!-- Top header and Navigation-->
+
+  <h3 style="text-align: center ;background-color:#222222; color:#ffffff ;">Website Experimentation
+
+<div align="center">
+ <marquee behavior="alternate" bgcolor="#bb3434" direction="left" height:="" 
+ loop="999999999999" scrollamount="3" scrolldelay="2" width="100%">
+ <span style="font-size: 20px;color:#FFFFFF"> Work in Progress! Work in Progress! Work in Progress!</span></marquee>
+</div>
+
+<p></p> 
+
+  <div style="text-align:  center"; class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" >Menu
+      <span class="caret"></span></button>
+      <ul style="text-align:center;" class="dropdown-menu">
+        <li><a style="text-align:center;" href="ak test.html">Homepage</a></li>
+        <li><a style="text-align:center;" href="#">Rules and Information</a></li>
+        <li><a style="text-align:center;"href="#">Gallery</a></li>
+      </ul>
+    </div>
+
+<p></p>
+
+  </h3>
+    <p style="text-align:center;">This is just me trying to figure out how to create a website!</p>
+
+  <main> 
+    <div class="header-img"><div>
+  </main>
+
+
+  <!-- Drop button menu tests-->
+  <p style="text-align:center">Test 1</p>
+  <label style="text-align: center ; "for="drop-menu"></label>
+  <select style="text-align: center"; name="drop-menu" id="nav">
+    <option style="text-align: center ; "value="tos"> Rules and Information</option>
+    <option style="text-align: center ;"value="portfolio">Art Gallery</option>
+    <option style="text-align: center ;"value="about-me">About Me</option>
+  </select>
+
+  <p></p>
+  <p style="text-align:center">Test 2</p>
+<div style="text-align:  center"; class="dropdown">
+  <button class="btn-menu" type="button" data-toggle="dropdown"> Menu
+    <span class="main-nav"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Homepage</a></li>
+        <li><a href=""></a>Rules and Information</li>
+        <li><a href="#"></a>Gallery</li>
+      </ul>
+    </div>
+
+  <p></p>
+  <p style="text-align:center">Test 3</p>
+  <div style="text-align:  center"; class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="ak test.html">Homepage</a></li>
+        <li><a href="#">Rules and Information</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+
+
+<!--Sliding Banner HTML-->
+<div class="content-slide">
+ <img class="mySlides" src="bg_lungmen_o.png" alt="custom_html_banner1" style="width:100%">
+ <img class="mySlides" src="21_G6_decisivebattlealley_n.png" alt="custom_html_banner2" style="width:100%">
+ <img class="mySlides" src="24_g7_thoroughfare.png" alt="custom_html_banner3" style="width:100%">
+ <img class="mySlides" src="24_RL_castlehall.png" alt="custom_html_banner4" style="width:100%">
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<!-- Staatic Banner-->
+<div class="banner" style="padding:15px; text-align:center; background-color: #23f102;">
+<div class="banner-content">
+<h1>Hello</h1>
+<p>hehe peepeepoopoo</p>
+<a href="ak test.html" class="btn btn-primary">Take to ak code</a>
+</div>
+</div>
+
+
+
+<!-- Sliding Banner HTML FOOTER (CSS)SCRIPT CODE-->
+<script>
+ var slideIndex = 1;
+ showDivs(slideIndex);
+ function plusDivs(n) {
+ showDivs(slideIndex += n);
+  }
+ function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1} if (n < 1) {slideIndex = x.length}for
+ (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+ x[slideIndex-1].style.display = "block"; }
+</script>
+
+</center>
+</body>
+</html>
