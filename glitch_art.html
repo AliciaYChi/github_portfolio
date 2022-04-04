@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>Glitch Art</title>
+<head>
+  
+
+
+
+<!-- Staatic Banner-->
+<div class="banner" style="padding:85px; text-align:center; background-color: #505454;">
+<div class="banner-content">
+<h1>Glitch Artwork</h1>
+</div>
+</div>
+
+<p></p>
+
+<!--Sliding Banner HTML-->
+<center>
+<div class="content-slide">
+ <img class="mySlides" src="images/cat_glitch.png" alt="Glitch_cat" style="width:100%">
+ <img class="mySlides" src="images/glitch_dog1.png" alt="Dog Glitch 1" style="width:100%">
+ <img class="mySlides" src="images/glitch_dog2.png" alt="Dog Glitch 2" style="width:100%">
+ <center>
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</center>
+</div>
+
+
+<center>
+<h3> Statement</h3>
+<body>
+<p>Pets are funny to see on the internet, but at the cost of the cute and funny video is the pet's overall health. Some people purposely overfeed their pets for entertainment purposes. I decided to glitch this image because this is an issue for some animals, and these pets can do nothing but accept the treatment. Certain breeds of animals are targeted for aesthetic purposes. Pets are sometimes subjected to becoming an accessory for their owners or are at risk of obesity because the owner wants to make a cute/funny viral video. As a result, some pets are mistreated or taken in by an owner who does not know how to properly care for the animal. The images are glitched because in some ways people don't view these pets as living beings, but rather they're viewed as an accessory or entertainment instead of a companion. </p>
+</body>
+</center>
+
+
+<!-- Sliding Banner HTML FOOTER (CSS)SCRIPT CODE-->
+<script>
+ var slideIndex = 1;
+ showDivs(slideIndex);
+ function plusDivs(n) {
+ showDivs(slideIndex += n);
+  }
+ function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1} if (n < 1) {slideIndex = x.length}for
+ (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+ x[slideIndex-1].style.display = "block"; }
+</script>
+
+</body>
+</html>
